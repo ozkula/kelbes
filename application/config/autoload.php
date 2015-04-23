@@ -52,7 +52,7 @@ $autoload['packages'] = array();
 |	$autoload['libraries'] = array('database', 'session', 'xmlrpc');
 */
 
-$autoload['libraries'] = array('database','session');
+$autoload['libraries'] = array();
 
 
 /*
@@ -109,7 +109,7 @@ $autoload['language'] = array();
 |
 */
 
-$autoload['model'] = array('add_model','edit_model','hapus_model');
+$autoload['model'] = array();
 
 
 /* End of file autoload.php */
