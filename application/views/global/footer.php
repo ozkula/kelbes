@@ -1,4 +1,4 @@
-	<div class="jumbotron">
+	<div class="jumbotron" style="	margin-bottom: 0;">
 		<div class="container">Copyright 2015</div>
     </div>
 
