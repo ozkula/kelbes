@@ -1,0 +1,10 @@
+.text-float-left{
+	float: left;
+}
+.image-valign{
+	margin: 5px;
+}
+.bottom-footer{
+	margin-top: 10px;
+	margin-bottom: 0px;
+}
