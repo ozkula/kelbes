@@ -1,3 +1,10 @@
+body{
+	font-family: 'Open Sans', sans-serif;
+	background-color: #F9F2E7;
+}
+.head-front{
+	background-color: #AEE239;
+}
 .text-float-left{
 	float: left;
 }
