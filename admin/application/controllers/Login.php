@@ -11,8 +11,6 @@ class Login extends CI_controller
 	}
 
 	function index(){
-		session_start();
-		session_destroy();
 		$data['error'] = 'Administrator Login';
 		$this->load->view('login',$data);
 	}
@@ -20,7 +18,7 @@ class Login extends CI_controller
 		$post = $this->input->post();
 		$username = $post['username'];
 		$password = $post['password'];
-		$login = $this->mView->check_login($username, $password);
+		$login = $this->Mview->check_login($username, $password);
 
 		if (!$login) {
 			$data['error'] = "Login Error Username or Password";
